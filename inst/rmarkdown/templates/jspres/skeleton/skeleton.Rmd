@@ -1,0 +1,26 @@
+---
+title: "jsPres"
+author: "Fu-Om"
+date: "`r format(Sys.time())`"
+output:
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: zenburn
+    transition: none
+    self_contained: true
+    css: slides.css
+    fig_width: 6
+    fig_height: 6
+    fig_caption: false
+  beamer_presentation:
+    toc: false
+    incremental: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE, eval=TRUE, cache=TRUE)
+# eval=TRUE for actually run 
+# Requires slides.css in the same dir to knit
+```
+
+# Introduction
