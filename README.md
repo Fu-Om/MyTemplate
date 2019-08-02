@@ -3,19 +3,33 @@
 Templates I use for Rmarkdown.
 
 ./inst/
+
 └── rmarkdown
+
     └── templates
+    
         ├── jspres
+        
         │   ├── skeleton
+        
         │   │   └── skeleton.Rmd
+        
         │   └── template.yaml
+        
         ├── pdfjp
+        
         │   ├── skeleton
+        
         │   │   └── skeleton.Rmd
+        
         │   └── template.yaml
+        
         └── report
+        
             ├── skeleton
+            
             │   └── skeleton.Rmd
+            
             └── template.yaml
 
 ## jspres
@@ -29,3 +43,4 @@ Templates I use for Rmarkdown.
 ## report
 - Rmarkdown yaml header for html report template.
 - Includes tab appearence, numbering.
+
