@@ -68,3 +68,12 @@ Data description.
 Checking for NAs and potential outliers.
 
 ## Data Summary
+
+# Appendix
+
+<details>
+  <summary>Additional Info</summary>
+```{r}
+devtools::session_info()
+```
+</details>
