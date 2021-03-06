@@ -15,14 +15,14 @@ output:
     md_extensions: -ascii_identifiers 
 ---
 
-```{r knitr_init, echo=FALSE, cache=FALSE}
+```{r knitr_init, echo=FALSE, cache=FALSE, message=FALSE, warning=FALSE}
 library(knitr)
-library(formatR)
+library(tidyverse)
 ## md_extension for jumping toc in Japanese
 ## Global options
-options(max.print="75")
+options(max.print="200")
 opts_chunk$set(echo=TRUE,
-                 cache=TRUE,
+               cache=FALSE,
                prompt=FALSE,
                tidy=TRUE,
                comment=NA,
@@ -33,47 +33,9 @@ opts_knit$set(width=75)
 
 # Summary
 
-A short description of the analysis.
-
-# Preparation {.tabset .tabset-fade}
-
-## Load library
-
-Load neccesary libraries
+# Data preperation
 
 ```{r}
-library(tidyverse)
+
 ```
 
-## Set options
-
-## Functions
-
-## Version
-
-```{r}
-devtools::session_info()
-```
-
-# Data load & check {.tabset .tabset-fade}
-
-Data description.
-
-## Load Data
-
-## Pre-processing
-
-## Data-check
-
-Checking for NAs and potential outliers.
-
-## Data Summary
-
-# Appendix
-
-<details>
-  <summary>Additional Info</summary>
-```{r}
-devtools::session_info()
-```
-</details>

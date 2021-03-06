@@ -1,5 +1,5 @@
 ---
-title: "jsPres"
+title: "JS Presentation"
 author: "Fu-Om"
 date: "`r format(Sys.time())`"
 output:
@@ -17,7 +17,8 @@ output:
     incremental: false
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
 knitr::opts_chunk$set(echo=TRUE, eval=TRUE, cache=TRUE)
 # eval=TRUE for actually run 
 # Requires slides.css in the same dir to knit

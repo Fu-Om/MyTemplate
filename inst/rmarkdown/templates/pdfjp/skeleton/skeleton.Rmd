@@ -10,6 +10,7 @@ output:
 documentclass: ltjsarticle 
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
 knitr::opts_chunk$set(echo = TRUE)
 ```
